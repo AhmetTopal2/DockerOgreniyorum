@@ -1,0 +1,28 @@
+package notortalamasi;
+
+import java.util.Scanner;
+
+public class notortalamasi {
+	
+	public static void main(String [] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Not ortalaması uygulamasıan hoşgeldiniz");
+		System.out.print("Vize Notunuzu Giriniz");
+		int vize;
+		int final1;
+		try {
+			 vize = scanner.nextInt();
+		}catch(Exception ex) {
+			System.out.print(ex.getMessage());
+		}
+		System.out.print("Final Notunuzu Giriniz");
+		try {
+			final1 = scanner.nextInt();
+		}catch(Exception ex) {
+			System.out.print(ex.getMessage());
+		}
+		
+		System.out.print( vize * 0.4 + final1*0.6 );
+	}
+
+}

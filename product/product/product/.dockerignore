@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Compiled files
+target/
+!target/*.jar
+*.class
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test files
+src/test/
+
+# Documentation
+README.md
+HELP.md
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore 
